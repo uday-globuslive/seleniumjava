@@ -8,23 +8,23 @@ public class testcase2 {
 		System.out.println("Test case 3");
 	}
 	@Test
-	public void testcas31() {
+	public void paymnettestcase1() {
 		System.out.println("Test case 3.1");
 	}
 	@Test
-	public void testcas32() {
+	public void paymenttestcase2() {
 		System.out.println("Test case 3.2");
 	}
 	@Test
-	public void testcas33() {
+	public void reporttestcase1() {
 		System.out.println("Test case 3.3");
 	}
 	@Test
-	public void testcas34() {
+	public void reporttestcase2() {
 		System.out.println("Test case 3.4");
 	}
 	@Test
-	public void testcas35() {
+	public void insurancetestcase1() {
 		System.out.println("Test case 3.5");
 	}
 

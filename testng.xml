@@ -3,14 +3,18 @@
 <suite name="MyTestSuite">
   <test thread-count="5" name="Back end testing"> 
     <classes>
-      <class name="testngsamplepkg.testcase1"/>
+      <class name="testngsamplepkg.testcase1">
+        <methods>
+        	<include name="B.*" />
+        </methods>
+      </class>
     </classes>
   </test> <!-- MyTest -->
   <test thread-count="5" name="Front end testing">
     <classes>
       <class name="testngsamplepkg.testcase2">
          <methods>
-            <include name="testcas31" />
+            <exclude name="report.*" />
          </methods>
       </class>
       <class name="testngsamplepkg.testcase3"/>
