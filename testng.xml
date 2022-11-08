@@ -8,6 +8,7 @@
         	<include name="B.*" />
         </methods>
       </class>
+      <class name="testngsamplepkg.testcase3"/>
     </classes>
   </test> <!-- MyTest -->
   <test thread-count="5" name="Front end testing">
